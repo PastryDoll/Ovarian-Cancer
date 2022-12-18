@@ -1,7 +1,5 @@
 # Ovarian-Cancer
 
-Extract all files to the same folder.
-
 In this notebook we will analize the Ovarian Cancer Dataset. This is a dataset, that come with MATLAB, consists of a 216x4000 matrix of 216 patients (rows), and 4000 (columns) indicating genetic markers measured on each patient. We also have an array that indicates if the patient have ovarian cancer or not.
 
 Our objective is to perform a PCA on this matrix, and extract from it its 3 principal components. After performing the PCA, we will plot the transformed data point, and investigate if they seen to divide into clusters, this will tell us if it is natural to ask for a classification model to fit our data.
